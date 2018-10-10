@@ -1,0 +1,35 @@
+name: first flag 4
+description: ''
+labels: []
+sticky: false
+archived: false
+state: active
+seed: 181b52a42e452881
+stickinessProperty: rox.distinct_id
+platforms:
+  - deploymentConfiguration:
+      targeting:
+        - weight:
+            - option: 'true'
+              value: 0.5
+            - option: 'false'
+              value: 0.5
+          flag:
+            - value: red
+              name: first_var
+          groupLogicGate: null
+          group: []
+          type: flag
+        - weight:
+            - value: 0
+              option: 'true'
+            - value: 1
+              option: 'false'
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+    flag:
+      name: first_flag4
+      platform: Ruby
