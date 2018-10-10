@@ -15,9 +15,9 @@ platforms:
           flag: first_var
           value: red
         value:
-          - value: 'true'
+          - value: true
             percentage: 50
-          - value: 'false'
+          - value: false
             percentage: 50
       - group:
           operator: or
