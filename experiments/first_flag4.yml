@@ -1,73 +1,56 @@
-name: first flag 4
+name: first_flag4
 description: ''
 labels: []
-seed: 181b52a42e452881
 stickinessProperty: rox.distinct_id
+enabled: true
+archived: false
+version: 0
+type: experiment
+flag: first_flag4
 platforms:
-  - deploymentConfiguration:
-      targeting:
-        - weight:
-            - value: 0.2
-              option: 'true'
-            - value: 0.8
-              option: 'false'
-          flag: []
-          groupLogicGate: or
-          group:
+  - name: Ruby
+    flag: first_flag4
+    conditions:
+      - value:
+          - value: true
+            percentage: 20
+          - value: false
+            percentage: 80
+        group:
+          operator: or
+          name:
             - ruby
-          type: group
-        - weight:
-            - value: 1
-              option: 'true'
-            - value: 0
-              option: 'false'
-          version:
-            operator: '>'
-            version: 2.0.0
-          flag: []
-          groupLogicGate: or
-          group:
+      - value: false
+        group:
+          operator: or
+          name:
             - All Users
-          type: all
-        - weight:
-            - option: 'true'
-              value: 0
-              schedule:
-                start: 1539270200519
-            - option: 'true'
-              value: 0.6
-              schedule:
-                start: 1540252800000
-            - option: 'true'
-              value: 1
-              schedule:
-                start: 1540857600000
-          flag: []
-          groupLogicGate: or
-          group:
+        version:
+          operator: '>'
+          semver: 2.0.0
+      - value:
+          - value: true
+            from: 1539270200519
+          - value: true
+            percentage: 60
+            from: 1540252800000
+          - value: true
+            percentage: 100
+            from: 1540857600000
+        group:
+          operator: or
+          name:
             - All Users
-          type: all
-        - weight:
-            - option: 'true'
-              value: 0.55
-            - option: 'false'
-              value: 0.45
-          flag:
-            - value: red
-              name: first_var
-          groupLogicGate: or
-          group: []
-          type: flag
-        - weight:
-            - value: 1
-              option: 'true'
-            - value: 0
-              option: 'false'
-          flag: []
-          groupLogicGate: or
-          group:
+      - value:
+          - value: true
+            percentage: 55
+          - value: false
+            percentage: 45
+        dependency:
+          flag: first_var
+          value: red
+      - value: false
+        group:
+          operator: or
+          name:
             - All Users
-          type: all
-    flag:
-      name: first_flag4
-      platform: Ruby
