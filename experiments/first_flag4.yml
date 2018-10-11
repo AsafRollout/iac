@@ -27,7 +27,7 @@ platforms:
             - All Users
         version:
           operator: '>'
-          semver: 1.5.0
+          semver: 1.4.0
       - value:
           - value: true
             percentage: 0
