@@ -1,27 +1,66 @@
-name: first_flag4
+_id:
+  _bsontype: ObjectID
+  id: !<tag:yaml.org,2002:binary> W73Fs9z3D7QrqHUc
+last_modified: 2018-10-11T15:04:05.787Z
+appId:
+  _bsontype: ObjectID
+  id: !<tag:yaml.org,2002:binary> W7YV2CKnKn1siF/8
+environmentId:
+  _bsontype: ObjectID
+  id: !<tag:yaml.org,2002:binary> W7YV2CKnKn1siGAA
+name: first flag 4
 description: ''
+__v: 0
+creation_date: 2018-10-10T09:26:11.584Z
 labels: []
-stickinessProperty: rox.distinct_id
-enabled: true
+deleted: false
+sticky: false
 archived: false
-version: 1.0.0
-type: experiment
-flag: first_flag4
+state: active
+seed: 181b52a42e452881
+stickinessProperty: rox.distinct_id
 platforms:
-  - name: Ruby
-    flag: first_flag4
-    conditions:
-      - dependency:
-          flag: first_var
-          value: red
-        value:
-          - value: true
-            percentage: 50
-          - value: false
-            percentage: 50
-      - group:
-          operator: or
-          name:
+  - deploymentConfiguration:
+      targeting:
+        - weight:
+            - schedule:
+                start: 1539270200519
+              value: 0
+              option: 'true'
+            - schedule:
+                start: 1540252800000
+              value: 0.6
+              option: 'true'
+            - schedule:
+                start: 1540857600000
+              value: 1
+              option: 'true'
+          flag: []
+          groupLogicGate: or
+          group:
             - All Users
-        value:
-          value: false
+          type: all
+        - weight:
+            - value: 0.5
+              option: 'true'
+            - value: 0.5
+              option: 'false'
+          flag:
+            - value: red
+              name: first_var
+          groupLogicGate: null
+          group: []
+          type: flag
+        - weight:
+            - option: 'true'
+              value: 1
+            - option: 'false'
+              value: 0
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+    flag:
+      name: first_flag4
+      platform: Ruby
