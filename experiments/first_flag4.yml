@@ -10,6 +10,7 @@ flag: first_flag4
 platforms:
   - name: Ruby
     flag: first_flag4
+    value: false
     conditions:
       - value:
           - value: true
@@ -23,7 +24,7 @@ platforms:
       - value: true
         version:
           operator: '>'
-          semver: 4.4.4
+          semver: 5.5.5
       - value:
           - value: true
             percentage: 0
