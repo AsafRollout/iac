@@ -30,6 +30,7 @@ platforms:
           semver: 2.0.0
       - value:
           - value: true
+            percentage: 0
             from: 1539270200519
           - value: true
             percentage: 60
