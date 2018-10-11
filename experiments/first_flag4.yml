@@ -1,7 +1,7 @@
 _id:
   _bsontype: ObjectID
   id: !<tag:yaml.org,2002:binary> W73Fs9z3D7QrqHUc
-last_modified: 2018-10-11T15:04:05.787Z
+last_modified: 2018-10-11T15:05:24.771Z
 appId:
   _bsontype: ObjectID
   id: !<tag:yaml.org,2002:binary> W7YV2CKnKn1siF/8
@@ -23,39 +23,62 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - schedule:
-                start: 1539270200519
-              value: 0
+            - value: 0.1
               option: 'true'
-            - schedule:
-                start: 1540252800000
-              value: 0.6
+            - value: 0.9
+              option: 'false'
+          flag: []
+          groupLogicGate: or
+          group:
+            - ruby
+          type: group
+        - weight:
+            - value: 0
               option: 'true'
-            - schedule:
-                start: 1540857600000
-              value: 1
-              option: 'true'
+            - value: 1
+              option: 'false'
+          version:
+            operator: '>'
+            version: 2.0.0
           flag: []
           groupLogicGate: or
           group:
             - All Users
           type: all
         - weight:
-            - value: 0.5
-              option: 'true'
-            - value: 0.5
-              option: 'false'
+            - option: 'true'
+              value: 0
+              schedule:
+                start: 1539270200519
+            - option: 'true'
+              value: 0.6
+              schedule:
+                start: 1540252800000
+            - option: 'true'
+              value: 1
+              schedule:
+                start: 1540857600000
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+        - weight:
+            - option: 'true'
+              value: 0.55
+            - option: 'false'
+              value: 0.45
           flag:
             - value: red
               name: first_var
-          groupLogicGate: null
+          groupLogicGate: or
           group: []
           type: flag
         - weight:
-            - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
+            - value: 1
+              option: 'true'
+            - value: 0
+              option: 'false'
           flag: []
           groupLogicGate: or
           group:
