@@ -1,31 +1,15 @@
-_id:
-  _bsontype: ObjectID
-  id: !<tag:yaml.org,2002:binary> W73Fs9z3D7QrqHUc
-last_modified: 2018-10-11T15:05:24.771Z
-appId:
-  _bsontype: ObjectID
-  id: !<tag:yaml.org,2002:binary> W7YV2CKnKn1siF/8
-environmentId:
-  _bsontype: ObjectID
-  id: !<tag:yaml.org,2002:binary> W7YV2CKnKn1siGAA
 name: first flag 4
 description: ''
-__v: 0
-creation_date: 2018-10-10T09:26:11.584Z
 labels: []
-deleted: false
-sticky: false
-archived: false
-state: active
 seed: 181b52a42e452881
 stickinessProperty: rox.distinct_id
 platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - value: 0.1
+            - value: 0.2
               option: 'true'
-            - value: 0.9
+            - value: 0.8
               option: 'false'
           flag: []
           groupLogicGate: or
@@ -33,9 +17,9 @@ platforms:
             - ruby
           type: group
         - weight:
-            - value: 0
-              option: 'true'
             - value: 1
+              option: 'true'
+            - value: 0
               option: 'false'
           version:
             operator: '>'
