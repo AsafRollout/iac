@@ -11,11 +11,15 @@ platforms:
   - name: Ruby
     flag: first_flag4
     value:
-      value: true
-      group:
-        operator: or
-        name:
-          - All Users
+      - value: true
+        percentage: 0
+        from: 1539270200519
+      - value: true
+        percentage: 60
+        from: 1540252800000
+      - value: true
+        percentage: 100
+        from: 1540857600000
     conditions:
       - value:
           - value: true
@@ -33,7 +37,7 @@ platforms:
             - All Users
         version:
           operator: '>'
-          semver: 1.9.8
+          semver: 1.1.1
       - value:
           - value: true
             percentage: 55
@@ -42,3 +46,8 @@ platforms:
         dependency:
           flag: first_var
           value: red
+      - value: true
+        group:
+          operator: or
+          name:
+            - All Users
