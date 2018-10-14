@@ -4,14 +4,14 @@ labels: []
 stickinessProperty: rox.distinct_id
 enabled: true
 archived: false
-version: 0
+version: 2
 type: experiment
 flag: first_flag4
 platforms:
   - name: Ruby
     value: true
     conditions:
-      - value: true
+      - value: false
       - value:
           - option: true
             percentage: 20
