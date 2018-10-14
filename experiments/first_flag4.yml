@@ -12,7 +12,7 @@ platforms:
     flag: first_flag4
     value: true
     conditions:
-      - value: true
+      - value: false
       - value:
           - option: true
             percentage: 20
@@ -27,18 +27,15 @@ platforms:
           operator: '>'
           semver: 5.5.5
       - value:
-          - option: 'true'
+          - option: true
             percentage: 0
             from: 2018-10-11T15:03:20.519Z
-            value: true
-          - option: 'true'
+          - option: true
             percentage: 60
             from: 2018-10-23T00:00:00.000Z
-            value: true
-          - option: 'true'
+          - option: true
             percentage: 100
             from: 2018-10-30T00:00:00.000Z
-            value: true
       - value:
           - option: true
             percentage: 55
