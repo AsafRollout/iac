@@ -1,0 +1,19 @@
+name: first_var
+description: ''
+labels: []
+stickinessProperty: rox.distinct_id
+enabled: true
+archived: false
+version: 0
+type: experiment
+flag: first_var
+platforms:
+  - name: Ruby
+    value:
+      - option: red
+        percentage: 0
+      - option: green
+        percentage: 0
+      - option: blue
+        percentage: 0
+    conditions: []
