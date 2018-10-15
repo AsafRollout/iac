@@ -7,20 +7,40 @@ platforms:
   - deploymentConfiguration:
       targeting:
         - weight:
-            - option: 'true'
-              value: 1
+            - value: 0
+              option: 'true'
+            - value: 1
+              option: 'false'
+          flag: []
+          groupLogicGate: or
+          group:
+            - ppp
+          type: group
+        - weight:
+            - value: 1
+              option: 'true'
           version:
-            version: '3.1'
             operator: '>'
+            version: '3.1'
           flag: []
           groupLogicGate: or
           group:
             - All Users
           type: all
         - weight:
-            - value: 0.3
+            - option: 'true'
+              value: 0.3
+            - option: 'false'
+              value: 0.7
+          flag: []
+          groupLogicGate: or
+          group:
+            - All Users
+          type: all
+        - weight:
+            - value: 1
               option: 'true'
-            - value: 0.7
+            - value: 0
               option: 'false'
           flag: []
           groupLogicGate: or
@@ -29,27 +49,17 @@ platforms:
           type: all
         - weight:
             - option: 'true'
-              value: 1
-            - option: 'false'
-              value: 0
-          flag: []
-          groupLogicGate: or
-          group:
-            - All Users
-          type: all
-        - weight:
-            - value: 0.1
               schedule:
                 start: 1539627344290
-              option: 'true'
-            - value: 0.8
+              value: 0.1
+            - option: 'true'
               schedule:
                 start: 1540425600000
-              option: 'true'
-            - value: 1
+              value: 0.8
+            - option: 'true'
               schedule:
                 start: 1542326400000
-              option: 'true'
+              value: 1
           flag: []
           groupLogicGate: or
           group:
