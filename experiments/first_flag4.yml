@@ -1,70 +1,31 @@
 name: first_flag4
 description: ''
 labels: []
-seed: 6ae3c79c23c94140
 stickinessProperty: rox.distinct_id
-platforms:
-  - deploymentConfiguration:
-      targeting:
-        - weight:
-            - value: 0
-              option: 'true'
-            - value: 1
-              option: 'false'
-          version:
-            operator: '>'
-            version: '3.3'
-          flag: []
-          groupLogicGate: or
-          group:
-            - All Users
-          type: all
-        - weight:
-            - value: 1
-              option: 'true'
-          flag: []
-          groupLogicGate: or
-          group:
-            - All Users
-          type: all
-        - weight:
-            - option: 'true'
-              value: 0.3
-            - option: 'false'
-              value: 0.7
-          flag: []
-          groupLogicGate: or
-          group:
-            - All Users
-          type: all
-        - weight:
-            - value: 1
-              option: 'true'
-            - value: 0
-              option: 'false'
-          flag: []
-          groupLogicGate: or
-          group:
-            - All Users
-          type: all
-        - weight:
-            - option: 'true'
-              schedule:
-                start: 1539627344290
-              value: 0.1
-            - option: 'true'
-              schedule:
-                start: 1540425600000
-              value: 0.8
-            - option: 'true'
-              schedule:
-                start: 1542326400000
-              value: 1
-          flag: []
-          groupLogicGate: or
-          group:
-            - All Users
-          type: all
-    flag:
-      name: first_flag4
-      platform: __ROLLOUT_DEFAULT__
+enabled: true
+archived: false
+version: 0
+type: experiment
+flag: first_flag4
+conditions:
+  - value: false
+    version:
+      operator: '>'
+      semver: '3.2'
+  - value: 'true'
+  - value:
+      - option: true
+        percentage: 30
+      - option: false
+        percentage: 70
+  - value: true
+value:
+  - option: true
+    percentage: 10
+    from: 2018-10-15T18:15:44.290Z
+  - option: true
+    percentage: 80
+    from: 2018-10-25T00:00:00.000Z
+  - option: true
+    percentage: 100
+    from: 2018-11-16T00:00:00.000Z
