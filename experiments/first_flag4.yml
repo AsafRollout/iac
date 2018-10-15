@@ -14,9 +14,9 @@ platforms:
       - value: false
       - value:
           - option: true
-            percentage: 20
+            percentage: 30
           - option: false
-            percentage: 80
+            percentage: 70
         group:
           operator: or
           name:
