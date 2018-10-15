@@ -9,7 +9,7 @@ type: experiment
 flag: first_flag4
 platforms:
   - name: __ROLLOUT_DEFAULT__
-    value: false
+    value: true
     conditions:
       - value: false
       - value: true
