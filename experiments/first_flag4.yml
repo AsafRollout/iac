@@ -8,7 +8,16 @@ version: 0
 type: experiment
 flag: first_flag4
 conditions:
-  - value: false
+  - value: true
+    version:
+      operator: '>'
+      semver: '3.3'
+  - value:
+      - option: true
+        percentage: 30
+      - option: false
+        percentage: 70
+  - value: true
     group:
       operator: or
       name:
