@@ -7,30 +7,4 @@ archived: false
 version: 0
 type: experiment
 flag: first_flag4
-platforms:
-  - name: __ROLLOUT_DEFAULT__
-    value: true
-    conditions:
-      - value: false
-      - value: true
-        dependency:
-          flag: first_var
-          value: red
-      - value:
-          - option: true
-            percentage: 70
-          - option: false
-            percentage: 30
-        version:
-          operator: '>'
-          semver: '3.0'
-      - value:
-          - option: true
-            percentage: 10
-            from: 2018-10-15T16:10:01.967Z
-          - option: true
-            percentage: 60
-            from: 2018-10-23T00:00:00.000Z
-          - option: true
-            percentage: 100
-            from: 2018-10-30T00:00:00.000Z
+value: false
