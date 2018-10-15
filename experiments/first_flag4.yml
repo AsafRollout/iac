@@ -12,7 +12,7 @@ platforms:
             - value: 0
               option: 'false'
           version:
-            operator: ==
+            operator: '>'
             version: '1.2'
           flag: []
           groupLogicGate: or
