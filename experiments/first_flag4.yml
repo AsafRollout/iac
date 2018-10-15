@@ -8,7 +8,7 @@ version: 0
 type: experiment
 flag: first_flag4
 conditions:
-  - value: true
+  - value: false
     group:
       operator: or
       name:
