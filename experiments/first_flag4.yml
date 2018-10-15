@@ -11,7 +11,7 @@ platforms:
   - name: Ruby
     value: true
     conditions:
-      - value: false
+      - value: true
       - value:
           - option: true
             percentage: 20
