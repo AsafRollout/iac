@@ -8,7 +8,7 @@ version: 0
 type: experiment
 flag: first_flag4
 conditions:
-  - value: false
+  - value: 'false'
 value:
   - option: true
     percentage: 10
