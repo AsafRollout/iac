@@ -8,7 +8,11 @@ version: 0
 type: experiment
 flag: first_flag4
 conditions:
-  - value: 'false'
+  - value: true
+    group:
+      operator: or
+      name:
+        - ppp
 value:
   - option: true
     percentage: 10
