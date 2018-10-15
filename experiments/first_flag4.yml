@@ -7,4 +7,16 @@ archived: false
 version: 0
 type: experiment
 flag: first_flag4
-value: false
+value:
+  - option: true
+    percentage: 10
+    from: 2018-10-15T18:15:44.290Z
+  - option: true
+    percentage: 80
+    from: 2018-10-25T00:00:00.000Z
+  - option: true
+    percentage: 90
+    from: 2018-10-31T00:00:00.000Z
+  - option: true
+    percentage: 100
+    from: 2018-11-16T00:00:00.000Z
