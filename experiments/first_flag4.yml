@@ -4,12 +4,12 @@ labels: []
 stickinessProperty: rox.distinct_id
 enabled: true
 archived: false
-version: 2
+version: 3.0.0
 type: experiment
 flag: first_flag4
 platforms:
   - name: Ruby
-    value: true
+    value: false
     conditions:
       - value: false
       - value:
@@ -23,7 +23,7 @@ platforms:
             - ruby
       - value: true
         version:
-          operator: '>'
+          operator: '<'
           semver: 5.5.5
       - value:
           - option: true
