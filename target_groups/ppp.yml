@@ -2,16 +2,5 @@ type: target-group
 name: ppp
 description: ''
 conditions:
-  - operator: ne
-    property: rox.platform
-    operand: plat3
-  - operator: match
-    property: id
-    operand: '3211'
   - operator: isUndefined
     property: id
-  - operator: inArray
-    property: rox.platform
-    operand:
-      - plat1
-      - plat2
