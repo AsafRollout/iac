@@ -8,13 +8,17 @@ archived: false
 version: 3
 type: experiment
 flag: first_flag4
+flagOptions:
+  - 'true'
+  - 'false'
+flagType: boolean
 platforms:
   - name: android
     value: true
   - name: ios
     value: true
   - name: Ruby
-    value: false
+    value: true
 value:
   - option: true
     percentage: 10
