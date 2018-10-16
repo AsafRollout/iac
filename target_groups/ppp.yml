@@ -1,34 +1,17 @@
+type: target-group
 name: ppp
 description: ''
-jsCondition:
-  operator: and
-  operands:
-    - operator: ne
-      operands:
-        - operator: property
-          operands:
-            - rox.platform
-        - plat3
-    - operator: and
-      operands:
-        - operator: match
-          operands:
-            - operator: property
-              operands:
-                - id
-            - '321'
-            - ''
-        - operator: and
-          operands:
-            - operator: isUndefined
-              operands:
-                - operator: property
-                  operands:
-                    - id
-            - operator: inArray
-              operands:
-                - operator: property
-                  operands:
-                    - rox.platform
-                - - plat1
-                  - plat2
+conditions:
+  - operator: ne
+    property: rox.platform
+    operand: plat3
+  - operator: match
+    property: id
+    operand: '3211'
+  - operator: isUndefined
+    property: id
+  - operator: inArray
+    property: rox.platform
+    operand:
+      - plat1
+      - plat2
