@@ -14,7 +14,7 @@ flagOptions:
 flagType: boolean
 platforms:
   - name: android
-    value: true
+    value: false
   - name: ios
     value: true
   - name: Ruby
