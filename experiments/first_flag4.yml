@@ -2,7 +2,6 @@ name: first_flag4
 description: ''
 labels:
   - lbl1
-  - lbl2
 stickinessProperty: rox.distinct_id
 enabled: true
 archived: false
