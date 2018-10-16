@@ -2,15 +2,16 @@ name: first_flag4
 description: ''
 labels:
   - lbl1
+  - lbl2
 stickinessProperty: rox.distinct_id
 enabled: true
 archived: false
-version: 1
+version: 3
 type: experiment
 flag: first_flag4
 platforms:
   - name: Ruby
-    value: true
+    value: false
 value:
   - option: true
     percentage: 10
