@@ -3,12 +3,13 @@ description: ''
 jsCondition:
   operator: and
   operands:
-    - operator: ne
+    - operator: match
       operands:
         - operator: property
           operands:
             - id
         - '3333'
+        - ''
     - operator: inArray
       operands:
         - operator: property
