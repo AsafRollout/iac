@@ -2,6 +2,7 @@ name: first_flag4
 description: ''
 labels:
   - lbl2
+  - lbl1
 stickinessProperty: rox.distinct_id
 enabled: true
 archived: false
@@ -24,8 +25,8 @@ value:
     percentage: 10
     from: 2018-10-15T18:15:44.290Z
   - option: true
-    percentage: 80
-    from: 2018-10-25T00:00:00.000Z
+    percentage: 70
+    from: 2018-10-23T00:00:00.000Z
   - option: true
     percentage: 100
-    from: 2018-11-16T00:00:00.000Z
+    from: 2019-11-16T00:00:00.000Z
