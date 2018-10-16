@@ -3,15 +3,24 @@ description: ''
 jsCondition:
   operator: and
   operands:
-    - operator: isUndefined
+    - operator: match
       operands:
         - operator: property
           operands:
             - id
-    - operator: inArray
+        - '321'
+        - ''
+    - operator: and
       operands:
-        - operator: property
+        - operator: isUndefined
           operands:
-            - rox.platform
-        - - plat1
-          - plat2
+            - operator: property
+              operands:
+                - id
+        - operator: inArray
+          operands:
+            - operator: property
+              operands:
+                - rox.platform
+            - - plat1
+              - plat2
