@@ -20,6 +20,21 @@ platforms:
     value: true
   - name: Ruby
     value: true
+conditions:
+  - value: true
+    group:
+      operator: nor
+      name:
+        - g2
+    version:
+      operator: '>'
+      semver: '2.0'
+  - value: false
+    group:
+      operator: or
+      name:
+        - ppp
+        - g2
 value:
   - option: true
     percentage: 10
