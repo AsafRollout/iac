@@ -3,13 +3,11 @@ description: ''
 jsCondition:
   operator: and
   operands:
-    - operator: match
+    - operator: isUndefined
       operands:
         - operator: property
           operands:
             - id
-        - '3333'
-        - ''
     - operator: inArray
       operands:
         - operator: property
