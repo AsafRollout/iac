@@ -1,18 +1,10 @@
 name: ppp
 description: ''
 jsCondition:
-  operator: and
+  operator: inArray
   operands:
-    - operator: ne
+    - operator: property
       operands:
-        - operator: property
-          operands:
-            - id
-        - '3333'
-    - operator: inArray
-      operands:
-        - operator: property
-          operands:
-            - rox.platform
-        - - plat1
-          - plat2
+        - rox.platform
+    - - plat1
+      - plat2
