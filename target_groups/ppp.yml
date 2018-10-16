@@ -7,3 +7,4 @@ jsCondition:
       operands:
         - rox.platform
     - - plat1
+      - plat2
