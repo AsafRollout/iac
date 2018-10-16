@@ -1,7 +1,6 @@
 name: first_flag4
 description: ''
-labels:
-  - lbl1
+labels: []
 stickinessProperty: rox.distinct_id
 enabled: true
 archived: false
@@ -11,6 +10,22 @@ flag: first_flag4
 platforms:
   - name: Ruby
     value: true
+conditions:
+  - value: false
+    group:
+      operator: or
+      name:
+        - ppp
+  - value: 'true'
+    version:
+      operator: '>'
+      semver: '3.1'
+  - value:
+      - option: true
+        percentage: 30
+      - option: false
+        percentage: 70
+  - value: true
 value:
   - option: true
     percentage: 10
