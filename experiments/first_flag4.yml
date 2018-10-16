@@ -4,9 +4,13 @@ labels: []
 stickinessProperty: rox.distinct_id
 enabled: true
 archived: false
-version: 0
+version: 1
 type: experiment
 flag: first_flag4
+platforms:
+  - name: Ruby
+    value: true
+    conditions: []
 conditions:
   - value: false
     group:
