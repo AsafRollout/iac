@@ -20,6 +20,14 @@ platforms:
     value: true
   - name: Ruby
     value: true
+    conditions:
+      - value: false
+        dependency:
+          flag: first_var
+          value: green
+        version:
+          operator: '>'
+          semver: '1.0'
 conditions:
   - value: true
     group:
