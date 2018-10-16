@@ -2,7 +2,7 @@ type: target-group
 name: g2
 description: aaa
 conditions:
-  - operator: inArray
+  - operator: in-array
     property: id
     operand:
       - '3333'
