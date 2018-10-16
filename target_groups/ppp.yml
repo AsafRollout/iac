@@ -1,0 +1,9 @@
+name: ppp
+description: ''
+jsCondition:
+  operator: inArray
+  operands:
+    - operator: property
+      operands:
+        - rox.platform
+    - - plat1
