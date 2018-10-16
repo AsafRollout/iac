@@ -12,9 +12,9 @@ platforms:
   - name: android
     value: true
   - name: ios
-    value: true
+    value: 'true'
   - name: Ruby
-    value: false
+    value: 'false'
 value:
   - option: true
     percentage: 10
