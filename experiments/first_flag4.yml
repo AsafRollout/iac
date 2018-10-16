@@ -10,7 +10,12 @@ flag: first_flag4
 platforms:
   - name: Ruby
     value: true
-    conditions: []
+    conditions:
+      - value: false
+        group:
+          operator: nor
+          name:
+            - ppp
 conditions:
   - value: false
     group:
