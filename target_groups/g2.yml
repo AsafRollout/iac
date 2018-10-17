@@ -2,5 +2,6 @@ type: target-group
 name: g2
 description: aaa
 conditions:
-  - operator: is-undefined
+  - operator: regex
     property: id
+    operand: \$\s
