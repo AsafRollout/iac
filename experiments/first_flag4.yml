@@ -13,7 +13,7 @@ platforms:
   - name: xbox
     value: false
   - name: anotherPlatform
-    value: true
+    value: false
   - name: android
     value: false
   - name: ios
