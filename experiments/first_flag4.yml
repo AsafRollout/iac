@@ -10,6 +10,7 @@ version: 3
 type: experiment
 flag: first_flag4
 platforms:
+  - name: xbox
   - name: anotherPlatform
     value: false
   - name: android
