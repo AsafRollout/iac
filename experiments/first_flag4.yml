@@ -9,10 +9,6 @@ archived: false
 version: 3
 type: experiment
 flag: first_flag4
-flagOptions:
-  - 'true'
-  - 'false'
-flagType: boolean
 platforms:
   - name: android
     value: false
@@ -21,13 +17,13 @@ platforms:
   - name: Ruby
     value: true
     conditions:
-      - value: false
+      - value: true
         dependency:
           flag: first_var
           value: green
         version:
-          operator: '>'
-          semver: '1.0'
+          operator: semver-eq
+          semver: '0.0'
 conditions:
   - value: true
     group:
@@ -35,9 +31,9 @@ conditions:
       name:
         - g2
     version:
-      operator: '>'
-      semver: '2.0'
-  - value: false
+      operator: semver-lt
+      semver: '2.3'
+  - value: true
     group:
       operator: or
       name:
