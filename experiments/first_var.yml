@@ -1,12 +1,6 @@
 flag: first_var
 version: 1.0.0
 type: experiment
-conditions:
-  - value: red
-    group:
-      operator: nor
-      name: g2
-value: green
 platforms:
   - name: android
     value:
@@ -14,3 +8,19 @@ platforms:
         percentage: 50
       - option: green
         percentage: 40
+    conditions:
+      - value: yellow
+        group:
+          name:
+            - ppp
+            - g2
+          operator: or
+        version:
+          operator: semver-ne
+          semver: '2.2'
+conditions:
+  - value: red
+    group:
+      name: g2
+      operator: nor
+value: green
