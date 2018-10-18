@@ -3,9 +3,11 @@ version: 1.0.0
 type: experiment
 stickinessProperty: rox.distict_id
 conditions:
-  - value: []
+  - value:
+      - option: green
+        percentage: 10
     group:
       operator: or
       name:
-        - ppp
+        - g2
 value: green
