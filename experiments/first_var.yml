@@ -1,0 +1,7 @@
+flag: first_var
+version: 1.0.0
+type: experiment
+name: first var
+stickinessProperty: rox.distinct_id
+labels: []
+value: []
