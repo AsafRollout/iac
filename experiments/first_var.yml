@@ -4,6 +4,5 @@ type: experiment
 conditions:
   - value: red
     group:
-      operator: or
       name: g2
 value: green
