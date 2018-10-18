@@ -1,2 +1,2 @@
-flag=first_var
-value=red
+flag: first_var
+value: red
