@@ -8,7 +8,7 @@ conditions:
       name: g2
 value: green
 platforms:
-  - android
+  - name: android
     value:
       - option: yellow
         percentage: 50
