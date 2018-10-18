@@ -10,7 +10,7 @@ platforms:
       - option: red
         percentage: 40
     conditions:
-      - value: green
+      - value: 'true'
         group:
           name:
             - g2
