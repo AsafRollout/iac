@@ -4,6 +4,6 @@ type: experiment
 conditions:
   - value: red
     group:
-      operator: all
+      operator: nor
       name: g2
 value: green
