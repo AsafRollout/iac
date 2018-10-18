@@ -7,7 +7,7 @@ platforms:
     value:
       - option: yellow
         percentage: 50
-      - option: 'true'
+      - option: red
         percentage: 40
     conditions:
       - value: green
