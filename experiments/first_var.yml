@@ -1,2 +1,11 @@
 flag: first_var
+version: 1.0.0
+type: experiment
+stickinessProperty: rox.distict_id
+conditions:
+  - value: []
+    group:
+      operator: or
+      name:
+        - ppp
 value: green
