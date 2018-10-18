@@ -17,7 +17,7 @@ platforms:
   - name: Ruby
     value: false
 conditions:
-  - value: true
+  - value: false
     group:
       operator: nor
       name:
