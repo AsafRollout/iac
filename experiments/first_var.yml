@@ -2,9 +2,8 @@ flag: first_var
 version: 1.0.0
 type: experiment
 conditions:
-  - value: []
+  - value: red
     group:
       operator: or
-      name:
-        - g2
+      name: g2
 value: green
