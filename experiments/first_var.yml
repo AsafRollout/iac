@@ -5,7 +5,7 @@ stickinessProperty: rox.distict_id
 conditions:
   - value:
       - option: green
-        percentage: 10
+        percentage: 20
     group:
       operator: or
       name:
