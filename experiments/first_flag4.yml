@@ -1,14 +1,10 @@
-name: first_flag4
-description: ''
+flag: first_flag4
+version: 1.0.0
+type: experiment
+stickinessProperty: rox.distinct_id
 labels:
   - lbl2
   - lbl1
-stickinessProperty: rox.distinct_id
-enabled: true
-archived: false
-version: 3
-type: experiment
-flag: first_flag4
 platforms:
   - name: xbox
     value: false
