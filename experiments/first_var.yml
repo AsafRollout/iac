@@ -11,10 +11,7 @@ platforms:
     conditions:
       - value: yellow
         group:
-          name:
-            - ppp
-            - g2
-          operator: or
+          name: g2
         version:
           operator: semver-ne
           semver: '2.2'
