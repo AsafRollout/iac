@@ -1,11 +1,10 @@
 flag: first_var
 version: 1.0.0
 type: experiment
-stickinessProperty: rox.distict_id
 conditions:
   - value:
       - option: green
-        percentage: 20
+        percentage: 10
     group:
       operator: or
       name:
