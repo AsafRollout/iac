@@ -15,15 +15,7 @@ platforms:
   - name: ios
     value: true
   - name: Ruby
-    value: true
-    conditions:
-      - value: true
-        dependency:
-          flag: first_var
-          value: green
-        version:
-          operator: semver-eq
-          semver: '0.0'
+    value: false
 conditions:
   - value: true
     group:
