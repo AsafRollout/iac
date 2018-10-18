@@ -2,6 +2,7 @@ flag: first_var
 version: 1.0.0
 type: experiment
 description: nope
+labels: llll
 platforms:
   - name: android
     value:
