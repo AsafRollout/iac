@@ -7,3 +7,10 @@ conditions:
       operator: nor
       name: g2
 value: green
+platforms:
+  - android
+    value:
+      - option: yellow
+        percentage: 50
+      - option: green
+        percentage: 40
