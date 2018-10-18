@@ -1,6 +1,9 @@
 flag: first_var
 version: 1.0.0
 type: experiment
+description: nice one
+labels:
+  - lbl1
 platforms:
   - name: android
     value:
@@ -9,7 +12,7 @@ platforms:
       - option: green
         percentage: 40
     conditions:
-      - value: yellow
+      - value: green
         group:
           name:
             - g2
