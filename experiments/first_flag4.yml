@@ -15,7 +15,7 @@ platforms:
   - name: anotherPlatform
     value: false
   - name: android
-    value: true
+    value: false
   - name: ios
     value: false
   - name: Ruby
