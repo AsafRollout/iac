@@ -9,6 +9,8 @@ platforms:
         percentage: 50
       - option: red
         percentage: 40
+      - option: 'true'
+        percentage: 10
     conditions:
       - value: 'true'
         group:
