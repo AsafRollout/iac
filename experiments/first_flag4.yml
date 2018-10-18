@@ -42,7 +42,6 @@ conditions:
       operator: or
       name:
         - ppp
-        - g2
 value:
   - option: true
     percentage: 10
