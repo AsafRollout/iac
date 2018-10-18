@@ -17,7 +17,7 @@ platforms:
   - name: android
     value: true
   - name: ios
-    value: true
+    value: false
   - name: Ruby
     value: true
     conditions:
