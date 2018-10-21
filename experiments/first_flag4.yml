@@ -10,5 +10,5 @@ platforms:
     value: false
   - name: another1
     conditions:
-      - value: true
+      - option: true
         percentage: 30
