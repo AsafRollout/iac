@@ -2,16 +2,15 @@ flag: first_var
 version: 1.0.0
 type: experiment
 description: nope
-labels: llll
 platforms:
   - name: android
     value:
       - option: yellow
         percentage: 50
       - option: red
-        percentage: 40
-      - option: 'true'
         percentage: 10
+      - option: 'true'
+        percentage: 30
     conditions:
       - value: 'true'
         group:
