@@ -4,4 +4,4 @@ type: experiment
 availableValues:
   - 'true'
   - 'false'
-value: false
+value: true
