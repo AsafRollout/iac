@@ -3,4 +3,4 @@ type: experiment
 availableOptions:
   - red
   - green
-value: 'red'
+value: red
