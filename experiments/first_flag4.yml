@@ -13,5 +13,3 @@ platforms:
       - value:
           - option: true
             percentage: 30
-          - option: true
-            percentage: 10
