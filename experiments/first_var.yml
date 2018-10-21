@@ -1,2 +1,7 @@
-type: experiment
 flag: first_var
+version: 1.0.0
+type: experiment
+availableValues:
+  - 'true'
+  - 'false'
+value: true
