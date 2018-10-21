@@ -1,6 +1,6 @@
 flag: first_var
 type: experiment
-availableOptions:
+availableValues:
   - red
   - green
 value: red
