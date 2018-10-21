@@ -3,4 +3,8 @@ type: experiment
 availableValues:
   - red
   - green
+conditions:
+  - value:
+      - option: green
+        percentage: 50
 value: red
