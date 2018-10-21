@@ -19,18 +19,17 @@ platforms:
 conditions:
   - value: false
     group:
+      name: g2
       operator: nor
-      name:
-        - g2
     version:
       operator: semver-lt
       semver: '2.3'
   - value: false
     group:
-      operator: or
       name:
         - ppp
         - g2
+      operator: or
 value:
   - option: true
     percentage: 10
