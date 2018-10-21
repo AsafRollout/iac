@@ -1,0 +1,14 @@
+flag: first_flag4
+type: experiment
+conditions:
+  - value: []
+  - value:
+      - option: true
+        percentage: 50
+value: red
+platforms:
+  - name: xbox
+    value: false
+  - name: another1
+    conditions:
+      - value: []
