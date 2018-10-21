@@ -1,7 +1,9 @@
 flag: first_flag4
 version: 1.0.0
 type: experiment
+name: first_flag4222222222
 stickinessProperty: rox.distinct_id
+description: checking12
 labels:
   - lbl2
   - lbl1
