@@ -9,3 +9,9 @@ conditions:
       - option: green
         percentage: 50
 value: red
+platforms:
+  - name: xbox
+    value: green
+  - name: another1
+    conditions:
+      - value: []
