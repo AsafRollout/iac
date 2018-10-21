@@ -19,7 +19,7 @@ platforms:
   - name: Ruby
     value: false
 conditions:
-  - value: false
+  - value: true
     group:
       name: g2
       operator: nor
