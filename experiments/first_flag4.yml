@@ -5,7 +5,7 @@ conditions:
   - value:
       - option: true
         percentage: 50
-value: red
+value: true
 platforms:
   - name: xbox
     value: false
