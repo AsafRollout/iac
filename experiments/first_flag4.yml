@@ -1,7 +1,6 @@
 flag: first_flag4
 type: experiment
 conditions:
-  - value: []
   - value:
       - option: true
         percentage: 50
@@ -11,4 +10,5 @@ platforms:
     value: false
   - name: another1
     conditions:
-      - value: []
+      - value: true
+        percentage: 30
