@@ -4,6 +4,7 @@ availableValues:
   - red
   - green
 conditions:
+  - value: []
   - value:
       - option: green
         percentage: 50
