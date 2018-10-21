@@ -12,6 +12,9 @@ platforms:
       - option: 'true'
         percentage: 30
     conditions:
+      - value:
+          - option: yellow
+            percentage: 20
       - value: 'true'
         group:
           name:
