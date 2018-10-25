@@ -6,7 +6,7 @@ availableValues:
   - green
   - blue
 conditions:
-  - value: red
+  - value: green
     group:
       name: g2
 value:
