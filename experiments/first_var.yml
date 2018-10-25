@@ -1,0 +1,8 @@
+flag: first_var
+type: experiment
+name: first var
+availableValues:
+  - red
+  - green
+  - blue
+value: []
