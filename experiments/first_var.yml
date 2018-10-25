@@ -13,6 +13,6 @@ value:
   - option: red
     percentage: 33
   - option: green
-    percentage: 33.33
+    percentage: 33
   - option: blue
     percentage: 34
