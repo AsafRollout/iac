@@ -5,3 +5,6 @@ availableValues:
   - 'false'
   - 'true'
   - green
+conditions:
+  - value: []
+value: 'true'
