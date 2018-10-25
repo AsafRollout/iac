@@ -6,7 +6,13 @@ availableValues:
   - green
   - blue
 conditions:
-  - value: green
+  - value:
+      - option: red
+        percentage: 33
+      - option: green
+        percentage: 33
+      - option: blue
+        percentage: 34
     group:
       name: g2
 value:
