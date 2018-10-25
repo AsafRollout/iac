@@ -2,6 +2,6 @@ flag: first_var
 type: experiment
 name: first var
 availableValues:
-  - false
-  - true
+  - 'false'
+  - 'true'
   - green
