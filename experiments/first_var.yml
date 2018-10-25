@@ -1,0 +1,12 @@
+flag: first_var
+type: experiment
+name: first var
+availableValues:
+  - red
+  - green
+  - blue
+conditions:
+  - value: green
+    group:
+      name: g2
+value: red
