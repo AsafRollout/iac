@@ -1,17 +1,18 @@
 flag: first_var
 type: experiment
+name: first var
 availableValues:
   - red
   - green
+  - blue
 conditions:
-  - value: []
   - value:
+      - option: red
+        percentage: 33.33
       - option: green
-        percentage: 50
+        percentage: 33.33
+      - option: blue
+        percentage: 34
+    group:
+      name: g2
 value: red
-platforms:
-  - name: xbox
-    value: green
-  - name: another1
-    conditions:
-      - value: []
