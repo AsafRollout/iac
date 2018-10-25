@@ -9,4 +9,10 @@ conditions:
   - value: green
     group:
       name: g2
-value: red
+value:
+  - option: red
+    percentage: 33
+  - option: green
+    percentage: 33.33
+  - option: blue
+    percentage: 34
