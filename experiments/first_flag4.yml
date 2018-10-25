@@ -1,0 +1,17 @@
+flag: first_flag4
+type: experiment
+stickinessProperty: rox.distict_id
+platforms:
+  - name: xbox
+    value: true
+  - name: another1
+    value: false
+    conditions:
+      - value:
+          - option: true
+            percentage: 30
+conditions:
+  - value:
+      - option: true
+        percentage: 50
+value: true
