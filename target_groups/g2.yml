@@ -3,5 +3,5 @@ name: g2
 conditions:
   - operator: regex
     property: id
-    operand: 333
-description: ^s
+    operand: ^s
+description: nope
