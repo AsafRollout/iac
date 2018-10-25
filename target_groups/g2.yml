@@ -1,7 +1,7 @@
 type: target-group
 name: g2
 conditions:
-  - operator: ne
+  - operator: regex
     property: id
     operand: 333
-description: aaa
+description: ^s
