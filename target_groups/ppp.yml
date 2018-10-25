@@ -1,10 +1,5 @@
 type: target-group
 name: ppp
-description: ''
 conditions:
-  - operator: in-array
+  - operator: is-undefined
     property: id
-    operand:
-      - '1111'
-      - '2222'
-      - '3333'
