@@ -4,7 +4,7 @@ name: first var
 availableValues:
   - red
   - green
-  - blue
+  - yellow
 conditions:
   - value: red
 value: []
