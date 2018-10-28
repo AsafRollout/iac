@@ -3,9 +3,9 @@ type: experiment
 name: first var
 availableValues:
   - red
+  - blue
   - green
   - yellow
-  - blue
 conditions:
   - value: red
 value:
