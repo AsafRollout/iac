@@ -2,10 +2,13 @@ flag: first_var
 type: experiment
 name: first var
 availableValues:
-  - red
   - green
   - blue
   - yellow
+  - red
 conditions:
   - value: []
-value: []
+  - value: []
+value:
+  - option: red
+    percentage: 10
