@@ -5,6 +5,7 @@ availableValues:
   - red
   - green
   - blue
+  - yellow
 conditions:
   - value: []
 value: []
