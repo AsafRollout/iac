@@ -5,4 +5,6 @@ availableValues:
   - red
   - green
   - blue
+conditions:
+  - value: []
 value: []
