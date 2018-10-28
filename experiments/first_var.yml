@@ -8,5 +8,15 @@ availableValues:
   - red
   - blue
 conditions:
-  - value: 'false'
+  - value:
+      - option: 'false'
+        percentage: 20
+      - option: 'true'
+        percentage: 20
+      - option: green
+        percentage: 20
+      - option: red
+        percentage: 20
+      - option: blue
+        percentage: 20
 value: 'false'
