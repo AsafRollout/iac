@@ -5,6 +5,8 @@ availableValues:
   - 'false'
   - 'true'
   - green
+  - red
+  - blue
 conditions:
   - value: []
-value: 'true'
+value: 'false'
