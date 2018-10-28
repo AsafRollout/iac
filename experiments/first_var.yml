@@ -5,6 +5,9 @@ availableValues:
   - red
   - green
   - yellow
+  - blue
 conditions:
   - value: red
-value: []
+value:
+  - option: blue
+    percentage: 10
