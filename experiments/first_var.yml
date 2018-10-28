@@ -8,5 +8,5 @@ availableValues:
   - red
   - blue
 conditions:
-  - value: []
+  - value: 'false'
 value: 'false'
