@@ -1,7 +1,4 @@
 flag: first_flag4
 type: experiment
 name: first flag 4
-value:
-  - option: true
-    percentage: 100
-    from: 2018-10-30T00:00:00.000Z
+value: false
