@@ -1,7 +1,7 @@
 flag: first_var
 type: experiment
 name: first var
-labels: lalala
+labels: lalal1
 availableValues:
   - red
   - blue
@@ -11,4 +11,4 @@ conditions:
   - value: red
 value:
   - option: blue
-    percentage: 8
+    percentage: 7
