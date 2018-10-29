@@ -1,0 +1,5 @@
+type: target-group
+name: ppp
+conditions:
+  - operator: is-undefined
+    property: id
