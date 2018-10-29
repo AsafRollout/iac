@@ -6,7 +6,7 @@ availableValues:
   - blue
   - green
   - yellow
-labels: opop
+labels: differentLabel
 conditions:
   - value: red
 value:
