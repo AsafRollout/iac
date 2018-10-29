@@ -6,9 +6,9 @@ availableValues:
   - blue
   - green
   - yellow
-labels: differentLabel4
+labels: differentLabel5
 conditions:
   - value: red
 value:
   - option: blue
-    percentage: 7
+    percentage: 8
