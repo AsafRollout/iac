@@ -6,9 +6,9 @@ availableValues:
   - blue
   - green
   - yellow
-labels: lalal1
+labels: lalal2
 conditions:
   - value: red
 value:
   - option: blue
-    percentage: 6
+    percentage: 5
