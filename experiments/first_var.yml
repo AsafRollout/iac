@@ -1,6 +1,7 @@
 flag: first_var
 type: experiment
 name: first var
+labels: llll
 availableValues:
   - red
   - blue
