@@ -3,5 +3,5 @@ type: experiment
 name: first flag 4
 labels:
   - differentLabel
-  - otherLbl
+  - otherLbl2
 value: false
