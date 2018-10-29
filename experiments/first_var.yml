@@ -1,0 +1,14 @@
+flag: first_var
+type: experiment
+name: first var
+availableValues:
+  - red
+  - blue
+  - green
+  - yellow
+labels: lalal1
+conditions:
+  - value: red
+value:
+  - option: blue
+    percentage: 6
