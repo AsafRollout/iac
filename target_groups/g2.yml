@@ -1,7 +1,0 @@
-type: target-group
-name: g2
-conditions:
-  - operator: regex
-    property: id
-    operand: ^s
-description: nope
