@@ -6,7 +6,7 @@ availableValues:
   - blue
   - green
   - yellow
-labels: differentLabel3
+labels: differentLabel4
 conditions:
   - value: red
 value:
