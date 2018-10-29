@@ -2,6 +2,6 @@ flag: first_flag4
 type: experiment
 name: first flag 4
 labels:
-  - differentLabel3
-  - otherLbl23
+  - differentLabel4
+  - otherLbl24
 value: false
