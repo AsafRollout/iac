@@ -6,7 +6,7 @@ availableValues:
   - blue
   - green
   - yellow
-labels: differentLabel5
+labels: lblwow
 conditions:
   - value: red
 value:
