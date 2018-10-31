@@ -6,7 +6,9 @@ availableValues:
   - blue
   - green
   - yellow
-labels: kaka
+labels:
+  - kaka
+  - kaka2
 conditions:
   - value: red
 value:
