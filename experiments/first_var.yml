@@ -6,7 +6,6 @@ availableValues:
   - blue
   - green
   - yellow
-labels: lblwow
 conditions:
   - value: red
 value:
