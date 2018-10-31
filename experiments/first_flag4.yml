@@ -1,4 +1,5 @@
 flag: first_flag4
 type: experiment
 name: first flag 4
+labels: blob
 value: false
