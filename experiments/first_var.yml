@@ -1,6 +1,6 @@
 # This file is was edited by rollout.io
 # URL: https://app.rollout.io/ex/5bd60f7a19a34548c8ece6db
-# Last Modified  at: Thu Nov 01 2018 14:34:04 GMT+0200 (IST)flag: first_var
+# Last Modified  at: Thu Nov 01 2018 14:43:14 GMT+0200 (IST)flag: first_var
 type: experiment
 name: first var
 availableValues:
