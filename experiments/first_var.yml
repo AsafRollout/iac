@@ -1,4 +1,27 @@
-flag: first_var
+# This file is was edited by rollout.io
+    # URL: https://app.rollout.io/ex/{ _id: 5bd60f7a19a34548c8ece6db,
+  last_modified: 2018-11-01T12:30:14.057Z,
+  appId: 5bb615d822a72a7d6c885ffc,
+  environmentId: 5bb615d822a72a7d6c886000,
+  name: 'first var',
+  description: '',
+  __v: 5,
+  creation_date: 2018-10-28T19:35:22.546Z,
+  flagOptions: [ 'red', 'blue', 'green', 'yellow' ],
+  flagType: 'multivariant',
+  labels: [ 5bd9ad28ad7a82ebf2c6e6b1 ],
+  deleted: false,
+  sticky: false,
+  archived: false,
+  state: 'active',
+  seed: '3d3d9498e26f1090',
+  stickinessProperty: 'rox.distinct_id',
+  platforms: 
+   [ { name: '__ROLLOUT_DEFAULT__',
+       flag: 'first_var',
+       deploymentConfiguration: [Object],
+       _id: 5bd9ada6e48dfcebf3b5376e } ] }
+    # Last Modified  at: Thu Nov 01 2018 14:30:15 GMT+0200 (IST)flag: first_var
 type: experiment
 name: first var
 availableValues:
@@ -8,7 +31,7 @@ availableValues:
   - yellow
 labels: kaka2
 conditions:
-  - value: red
+  - value: blue
 value:
   - option: blue
     percentage: 7
