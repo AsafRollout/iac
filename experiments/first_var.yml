@@ -1,6 +1,6 @@
 # This file is was edited by rollout.io
 # URL: https://localhost.rollout.io:9000/ex/5bd60f7a19a34548c8ece6db
-# Last Modified  at: Thu Nov 01 2018 15:39:54 GMT+0200 (IST)
+# Last Modified  at: Thu Nov 01 2018 16:45:14 GMT+0200 (IST)
 flag: first_var
 type: experiment
 name: first var
@@ -15,4 +15,4 @@ conditions:
   - value: yellow
 value:
   - option: blue
-    percentage: 8
+    percentage: 10
