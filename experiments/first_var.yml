@@ -1,6 +1,7 @@
 # This file is was edited by rollout.io
 # URL: https://localhost.rollout.io:9000/ex/5bd60f7a19a34548c8ece6db
-# Last Modified  at: Thu Nov 01 2018 15:30:29 GMT+0200 (IST)flag: first_var
+# Last Modified  at: Thu Nov 01 2018 15:32:08 GMT+0200 (IST)
+flag: first_var
 type: experiment
 name: first var
 availableValues:
@@ -10,15 +11,7 @@ availableValues:
   - yellow
 labels: kaka2
 conditions:
-  - value:
-      - option: red
-        percentage: 25
-      - option: blue
-        percentage: 25
-      - option: green
-        percentage: 25
-      - option: yellow
-        percentage: 25
+  - value: yellow
 value:
   - option: blue
     percentage: 7
