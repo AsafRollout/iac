@@ -10,13 +10,7 @@ availableValues:
   - yellow
 labels: kaka2
 conditions:
-  - value:
-      - option: red
-        percentage: 50
-      - option: blue
-        percentage: 25
-      - option: green
-        percentage: 25
+  - value: yellow
 value:
   - option: blue
     percentage: 10
