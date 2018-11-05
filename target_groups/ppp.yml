@@ -3,7 +3,7 @@ name: ppp
 conditions:
   - operator: ne
     property: rox.platform
-    operand: asdf
+    operand: asdfa
   - operator: ne
     property: id
     operand: '33333'
