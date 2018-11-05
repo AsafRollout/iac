@@ -5,7 +5,7 @@ conditions:
     property: id
     operand:
       - '111'
-      - '222'
+      - '2222'
   - operator: ne
     property: rox.platform
     operand: '33333'
