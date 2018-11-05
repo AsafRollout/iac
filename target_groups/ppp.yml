@@ -1,9 +1,0 @@
-type: target-group
-name: ppp
-conditions:
-  - operator: ne
-    property: rox.platform
-    operand: asdfa
-  - operator: ne
-    property: id
-    operand: '33333'
