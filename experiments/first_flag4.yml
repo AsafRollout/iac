@@ -1,8 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5be05e8b5c37a3b23c6dd25f
 flag: first_flag4
 type: experiment
 name: first flag 4
-labels: blob
-conditions:
-  - group:
-      name: ppp
 value: false
