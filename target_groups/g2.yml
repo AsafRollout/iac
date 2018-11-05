@@ -1,0 +1,6 @@
+type: target-group
+name: g2
+conditions:
+  - operator: ne
+    property: rox.platform
+    operand: fdsaf
