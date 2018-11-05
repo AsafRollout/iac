@@ -7,6 +7,7 @@ conditions:
       - '111'
       - '2222'
       - '3333'
+      - '66'
   - operator: ne
     property: rox.platform
     operand: '33333'
