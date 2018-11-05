@@ -1,0 +1,6 @@
+type: target-group
+name: g3
+conditions:
+  - operator: ne
+    property: rox.platform
+    operand: fdasfda
