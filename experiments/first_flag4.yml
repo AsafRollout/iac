@@ -3,6 +3,9 @@
 flag: first_flag4
 type: experiment
 name: first flag 4
+labels:
+  - lbl1
+  - lbl2
 conditions:
   - value: true
     version:
