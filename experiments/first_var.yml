@@ -1,0 +1,10 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5be3284c9bd78d4a2c9c56df
+flag: first_var
+type: experiment
+name: first var
+availableValues:
+  - red
+  - green
+  - blue
+value: []
