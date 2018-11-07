@@ -9,6 +9,7 @@ availableValues:
   - blue
 conditions:
   - value: []
+  - value: []
 value:
   - option: blue
     percentage: 10
