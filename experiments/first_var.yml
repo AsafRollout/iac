@@ -7,6 +7,8 @@ availableValues:
   - red
   - green
   - blue
+conditions:
+  - value: []
 value:
   - option: blue
     percentage: 10
