@@ -1,0 +1,6 @@
+type: target-group
+name: gg
+conditions:
+  - operator: ne
+    property: id
+    operand: win
