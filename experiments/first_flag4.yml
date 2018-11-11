@@ -32,4 +32,4 @@ conditions:
     group:
       name: g3
       operator: and
-value: true
+value: false
