@@ -3,7 +3,7 @@ name: g10
 conditions:
   - operator: ne
     property: id
-    operand: '6666'
+    operand: '667'
   - operator: ne
     property: rox.platform
     operand: uuddababstart
