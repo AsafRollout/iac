@@ -1,6 +1,0 @@
-type: target-group
-name: g10
-conditions:
-  - operator: ne
-    property: rox.platform
-    operand: fdafsda
