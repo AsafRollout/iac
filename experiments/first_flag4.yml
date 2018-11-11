@@ -1,0 +1,35 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5be187a103111323ec7ce451
+flag: first_flag4
+type: experiment
+name: first flag 4
+stickinessProperty: id
+description: descdescdesc
+labels:
+  - lbl1
+  - lbl2
+conditions:
+  - value: true
+    version:
+      operator: semver-gt
+      semver: '1.0'
+  - value:
+      - option: true
+        percentage: 30
+        from: 2018-11-06T16:28:16.573Z
+      - option: true
+        percentage: 80
+        from: 2018-11-20T00:00:00.000Z
+      - option: true
+        percentage: 100
+        from: 2018-11-27T00:00:00.000Z
+    dependency:
+      flag: first_var
+      value: red
+  - value:
+      - option: true
+        percentage: 40
+    group:
+      name: g3
+      operator: and
+value: false
