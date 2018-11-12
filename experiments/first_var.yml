@@ -7,6 +7,7 @@ availableValues:
   - red
   - green
   - blue
+labels: lbl1
 platforms:
   - name: Ruby
     value: []
