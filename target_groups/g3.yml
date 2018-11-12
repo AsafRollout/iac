@@ -1,5 +1,0 @@
-type: target-group
-name: g3
-conditions:
-  - operator: is-undefined
-    property: rox.platform
