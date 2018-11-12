@@ -4,7 +4,7 @@ flag: first_var
 type: experiment
 name: first vara
 stickinessProperty: rox.platform
-description: aaaafffaz
+description: aaaa
 availableValues:
   - red
   - green
