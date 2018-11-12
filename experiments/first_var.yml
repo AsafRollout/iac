@@ -9,4 +9,4 @@ availableValues:
   - blue
 conditions:
   - value: []
-value: []
+value: red
