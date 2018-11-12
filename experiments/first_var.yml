@@ -7,7 +7,4 @@ availableValues:
   - red
   - green
   - blue
-platforms:
-  - name: Ruby
-    value: []
 value: []
