@@ -8,6 +8,9 @@ availableValues:
   - red
   - green
   - blue
+platforms:
+  - name: Ruby
+    value: []
 conditions:
   - value: []
 value: red
