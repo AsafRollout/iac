@@ -1,0 +1,16 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5be9d5c75941600bf94801ca
+flag: first_var
+type: experiment
+name: first vara
+stickinessProperty: rox.platform
+description: aaaa
+availableValues:
+  - red
+  - green
+  - blue
+labels: lbl1
+platforms:
+  - name: Ruby
+    value: []
+value: blue
