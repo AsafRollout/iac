@@ -8,9 +8,6 @@ description: descdescdesc
 labels:
   - lbl1
   - lbl2
-platforms:
-  - name: Ruby
-    value: false
 conditions:
   - value: true
     version:
