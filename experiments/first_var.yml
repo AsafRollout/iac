@@ -2,7 +2,8 @@
 # URL: https://localhost.rollout.io:9000/ex/5be9d5c75941600bf94801ca
 flag: first_var
 type: experiment
-name: first var
+name: first vara
+archived: true
 stickinessProperty: rox.platform
 description: aaa123
 availableValues:
