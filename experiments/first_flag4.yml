@@ -26,9 +26,6 @@ conditions:
     dependency:
       flag: first_var
       value: red
-    group:
-      name: g3
-      operator: and
   - value:
       - option: true
         percentage: 40
