@@ -3,6 +3,7 @@
 flag: first_var
 type: experiment
 name: first vara
+archived: true
 stickinessProperty: rox.platform
 description: aaa123
 availableValues:
