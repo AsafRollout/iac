@@ -3,6 +3,7 @@
 flag: first_flag4
 type: experiment
 name: first flag 4
+archived: true
 stickinessProperty: id
 description: descdescdesc
 labels:
