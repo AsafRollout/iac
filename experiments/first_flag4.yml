@@ -4,7 +4,7 @@ flag: first_flag4
 type: experiment
 name: first flag 4
 stickinessProperty: id
-description: descdescdesc
+description: descdesc
 labels:
   - lbl1
   - lbl2
